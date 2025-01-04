@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Tab URL Copier",
+  "version": "1.0",
+  "description": "Copies URLs of all tabs in the current window to clipboard",
+  "permissions": [
+    "tabs",          // Required to access tab URLs
+    "offscreen",     // Required for clipboard operations
+    "clipboardWrite" // Required for writing to clipboard
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
