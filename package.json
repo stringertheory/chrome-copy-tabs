@@ -1,0 +1,12 @@
+{
+  "name": "tab-url-copier-tests",
+  "version": "1.0.0",
+  "description": "E2E tests for Tab URL Copier extension",
+  "scripts": {
+    "test": "jest --config jest.config.js --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^23.11.1"
+  }
+}
