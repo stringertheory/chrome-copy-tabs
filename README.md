@@ -3,6 +3,15 @@
 A simple Chrome extension that copies all URLs from your current
 window's tabs to the clipboard, one URL per line.
 
+I made this because all I found on an initial search was extensions
+to copy all tabs, not just the current window, and I wanted to
+experiment with using LLM's to help write a type of program
+I'm not very familiar with (a Chrome extension). Since, I found
+other more feature-complete extensions that do let you copy the
+current window's tabs. [Tab Copy](https://tabcopy.com/),
+[github](https://github.com/hansifer/tab-copy) looks good to me
+so far. If you're reading this, you might be better off with that :)
+
 ## How to use
 1. Pin the extension so the icon shows up in the extension toolbar
 2. Click the button. The tabs are now copied to your clipboard.
